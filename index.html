@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Feedback dashboard</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <span class="navbar-brand">Feedback Dashboard</span>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
+            <div class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-success my-2 my-sm-0" id="dashboardBtn">Top 5 Countries</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content text-center">
+        <div id="worldwide">Worldwide stats</div>
+        <div class="graph-hidden" id="top5Countries">Top 5 countries stats</div>
+    </div>
+
+    <!-- Add reference to jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" ></script>
+
+    <!-- Add references to script files -->
+    <script src="./scripts/scripts.js"></script>
+    <script onload="loadWorldWideStats();"  src="./scripts/amCharts.js"></script>
+</body>
+</html>

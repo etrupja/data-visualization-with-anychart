@@ -1,0 +1,11 @@
+.main-content{
+    padding: 50px;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.graph-hidden{
+    display: none;
+}
