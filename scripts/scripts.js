@@ -1,13 +1,13 @@
 $("#dashboardBtn").click(function () {
     $(this).text(function(i, text){
-        $('#worldwide').toggle();
-        $('#top5Countries').toggle();
-        if(text === "Worldwide"){
-            loadWorldWideStats();
-            return "Top 5 Countries";
+        $('#yearlyReport').toggle();
+        $('#quarterlyReport').toggle();
+        if(text === "Yearly Report"){
+            loadYearlyReport();
+            return "Quarterly Report";
         } else {
-            loadTop5Countries();
-            return "Worldwide";
+            loadQuerterlyReport();
+            return "Yearly Report";
         }
     })
 });
