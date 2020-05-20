@@ -6,7 +6,7 @@ $("#dashboardBtn").click(function () {
             loadYearlyReport();
             return "Quarterly Report";
         } else {
-            loadQuerterlyReport();
+            loadQuarterlyReport();
             return "Yearly Report";
         }
     })
